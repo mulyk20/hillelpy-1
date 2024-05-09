@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hillel py #1"
+version = "0.1.0"
+description = ""
+authors = ["alex <alexmulyk20@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
